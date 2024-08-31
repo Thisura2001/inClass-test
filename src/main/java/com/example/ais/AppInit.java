@@ -4,7 +4,7 @@ import com.example.ais.app.Transaction;
 import com.example.ais.config.AppConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class AppWork {
+public class AppInit {
     public static void main(String[] args) {
         var ctx = new AnnotationConfigApplicationContext();
         ctx.register(AppConfig.class);
